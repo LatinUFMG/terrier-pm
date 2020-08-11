@@ -361,6 +361,7 @@ public class TRECCollection extends MultiDocumentFileCollection {
 				}
 				
 				DocProperties.put("docno", ThisDocID);
+				// DocProperties.put("PMID", ThisDocID); //TODO check if we need this
 				DocProperties.put("filename", currentFilename);
 				DocProperties.put("offsetInFile", Long.toString(br.getPos()));
 				DocProperties.put("documentInFileIndex",  Integer.toString(documentsInThisFile));

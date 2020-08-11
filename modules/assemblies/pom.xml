@@ -36,6 +36,14 @@
 
 		<dependency>
 			<groupId>${project.groupId}</groupId>
+			<artifactId>terrier-pubmed</artifactId>
+			<version>${project.version}</version>
+			<!-- <scope>provided</scope> -->
+		</dependency>
+
+
+		<dependency>
+			<groupId>${project.groupId}</groupId>
 			<artifactId>terrier-batch-retrieval</artifactId>
 			<version>${project.version}</version>
 			<!-- <scope>provided</scope> -->

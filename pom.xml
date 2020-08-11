@@ -63,6 +63,7 @@
 		<module>modules/rest-client</module>
 		<module>modules/index-api</module>
 		<module>modules/core</module>
+		<module>modules/pubmed</module>
 		<module>modules/batch-indexers</module>
 		<module>modules/batch-retrieval</module>
 		<module>modules/learning</module>
